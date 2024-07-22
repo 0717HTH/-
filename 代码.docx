@@ -16,6 +16,6 @@ char* removeOuterParentheses(char* s) {
             }
         }
     }
-    Stack[++top]='\0';//最后让栈最后一个元素为、0，否则会报错
+    Stack[++top]='\0';//最后让栈最后一个元素为空，否则会报错
     return Stack;//返回栈
 }
